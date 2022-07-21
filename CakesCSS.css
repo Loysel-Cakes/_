@@ -81,6 +81,8 @@
 }
 #logoPic{
     visibility: visible;
+    height: 90px;
+    width: 90px;
 }
 @media (max-width: 600px) {
     .Cpic{
