@@ -1,8 +1,8 @@
 
 .body{
     
-    background-color: #fff;
-    background-attachment: fixed;
+    background-color: rgb(255, 255, 255);
+    
     position: sticky;
 }
 .Sidenav{
@@ -14,7 +14,7 @@
         left: 0;
         height:40px;
         border-style: inset;
-        transition: 0.3s;
+        
 }
 #Menu{
     position: fixed;
@@ -57,7 +57,7 @@
     height:150px;
     padding: 10px;
     border-radius: 10px;
-    color:#fff;
+    color:rgb(0, 0, 0);
 }
 #homeIcon{
          float: right;
