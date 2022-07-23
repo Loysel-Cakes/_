@@ -1,3 +1,6 @@
+
+
+
 function OpenNav(){
     var closeBtn = document.getElementById("closeBtn");       
      var Snav = document.getElementById("SideNav");  
@@ -40,6 +43,5 @@ function OpenNav(){
     closeBtn.hidden = false;
      Snav.style.width = "60px";
      Snav.style.top = "0px";
-    Snav.style.height = "60px";
-    
+    Snav.style.height = "60px";   
   }

@@ -9,10 +9,10 @@
     <body id="Body" class="body"> 
         <div id="headColor">
             <image src="logo2.jpeg" id="logoPic"  height="130px" width="130px"></image>
-          <br>
-            
+          <br>           
             Welcome to Loysel Cakes
         </div>
+        <script type="text/javascript" src="Cakescript.js "></script>
     <br>
     <br>
      <br>
@@ -25,36 +25,8 @@
                <button id="Menu" onclick="OpenNav()">
                 <image id="menuIMG2" src="logo.jpeg" height="60px" width="50px" ></image>
               </button>
-              <Script> 
-                function OpenNav(){
-                  var closeBtn = document.getElementById("closeBtn");       
-                   var Snav = document.getElementById("SideNav");  
-                   var OpenBtn = document.getElementById("Menu"); 
-                   var Options = document.getElementById("OptionsText"); 
-                   var ContactSection = document.getElementById("ContactSection");
-                   var cakeSection = document.getElementById("CakeSection");
-                   var cupcakeSection = document.getElementById("CupCakeSection");
-                   var macaronSection = document.getElementById("MacaronSection");
-                   var donutSection = document.getElementById("DonutSection");
-                      donutSection.style.visibility = "visible";
-                   macaronSection.style.visibility = "visible";
-                   cupcakeSection.style.visibility = "visible";
-                  OpenBtn.hidden = true;    
-                  cakeSection.style.visibility = "visible"; 
-                  ContactSection.style.visibility = "hidden";
-                  closeBtn.style.visibility = "visible"; 
-                  Options.style.visibility = "visible";
-                  closeBtn.style.top = "0px";
-                  closeBtn.style.left = "0px";
-                  closeBtn.style.fontSize ="20px";
-                  Snav.style.width = "250px";
-                  Snav.style.height = "100%";
-                  Snav.style.top = "70px";
-               
-                 }
-              </Script>
             </div> 
-            <div id="OptionsText">Catalogue</div>
+            
             <br>
             <br>
             <br>      
@@ -65,38 +37,8 @@
                 <button id="closeBtn" class="closebtn" onclick="CloseNav()">
                   <image id="menuIMG" src="logo.jpeg" height="60px" width="50px"></image>
                 </button>
-                <Script> 
-                    function CloseNav(){
-                      var closeBtn = document.getElementById("Menu");  
-                      var Snav = document.getElementById("SideNav");
-                      var OpenBtn = document.getElementById("closeBtn"); 
-                      var Options = document.getElementById("OptionsText");
-                      var oldHead = document.getElementById("mainHead");
-                      var cakeSection = document.getElementById("CakeSection");
-                      var cupcakeSection = document.getElementById("CupCakeSection");
-                      var macaronSection = document.getElementById("MacaronSection");
-                      var donutSection = document.getElementById("DonutSection");
-                      donutSection.style.visibility = "hidden";
-                      macaronSection.style.visibility = "hidden";
-                      cupcakeSection.style.visibility = "hidden";
-                      OpenBtn.style.visibility = "hidden";
-                      cakeSection.style.visibility = "hidden";
-                      ContactSection.style.visibility = "visible";
-                      Options.style.visibility = "hidden";
-                      closeBtn.hidden = false;
-                       Snav.style.width = "60px";
-                       Snav.style.top = "0px";
-                      Snav.style.height = "60px";
-                      
-                    }
-                </Script>
            </div>
            <a href="index.html" onclick="GoToCakes()">
-            <script>
-                    function GoToCakes(){
-
-                    }
-            </script>
              <div class="OptionsTabs" id="CakeSection">
               Cakes
              </div>
@@ -106,31 +48,16 @@
                 <div class="OptionsTabs" id="CupCakeSection">
                  CupCakes
                 </div>
-                <script>
-                    function GoToCupCakes(){
-
-                    }
-              </script>
            </a>
            <a href="macarons.html" onclick="GoToMacarons()">
             <div class="OptionsTabs" id="MacaronSection">
              Macarons
             </div>
-            <script>
-                function GoToMacarons(){
-
-                }
-          </script>
        </a>
        <a href="" onclick="GoToDonuts()">
         <div class="OptionsTabs" id="DonutSection">
          Donuts
         </div>
-        <script>
-            function GoToMacarons(){
-
-            }
-      </script>
       </a>
      </div>
      <br>
