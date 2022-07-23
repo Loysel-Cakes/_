@@ -1,6 +1,7 @@
 
 .body{
     position: sticky;
+    background-color: #fff;
 }
 .Sidenav{
     position: fixed;
@@ -49,7 +50,7 @@
     left: 0;
     font-size: 50px;
     text-align: center;
-    
+    background-color: #fff;
     width: 100%;
     height:150px;
     padding: 10px;
