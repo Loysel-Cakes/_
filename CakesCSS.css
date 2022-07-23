@@ -68,7 +68,7 @@
          position: static;
 }
 #ContactSection{
-    position: absolute;    
+    position: fixed;    
     left: 0;
     bottom: 0;
     width: 100%;
@@ -102,8 +102,8 @@
         width: 60px;
     }
     #ContactSection{
-        bottom: 1;
-         height: 200px;
+        bottom: 0;
+         height: 210px;
         font-size: 18px;
     }
 }
