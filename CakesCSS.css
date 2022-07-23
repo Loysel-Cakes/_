@@ -1,7 +1,7 @@
 
 .body{
     
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     background-attachment: fixed;
     position: sticky;
 }
@@ -44,7 +44,7 @@
     font-size: 45px;
    float: left;
    background-color: #111;
-   color: rgb(255, 255, 255);
+   color: #fff;
 }
 #headColor{
     position: fixed;
@@ -57,7 +57,7 @@
     height:150px;
     padding: 10px;
     border-radius: 10px;
-    color: rgb(0, 0, 0);
+    color:#fff;
 }
 #homeIcon{
          float: right;
@@ -71,7 +71,7 @@
     width: 100%;
     height: 250px;
     background-color: black;
-   color: blanchedalmond; 
+   color:#fff; 
     text-align: center;
     font-size: 30px;
 }
