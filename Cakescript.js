@@ -1,13 +1,4 @@
-     function MenuBtn(){
-      console.log("haspressed");
-            isClicked = true; 
-      if(isClicked && !isOpen){ 
-        OpenNav();
-      }           
-      if(isClicked && isOpen){
-        CloseNav();
-      }
-    }
+
 document.addEventListener("DOMContentLoaded",() => {
    var isOpen = false;
     var isCleicked = false;
