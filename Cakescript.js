@@ -1,6 +1,8 @@
 
-var isOpen = false;
-var isClicked = false;
+document.addEventListener("DOMContentLoaded",() => {
+   var isOpen = false;
+    var isCleicked = false;
+
     var MenuBtn = document.getElementById("Menu");  
     var Snav = document.getElementById("SideNav");
     var contactSection= document.getElementById("ContactSection");
@@ -10,7 +12,7 @@ var isClicked = false;
     var donutSection = document.getElementById("DonutSection");
     function MenuBtnPressed(){
       console.log("haspressed");
-            isClicked = true;
+            isClicked = true; 
       if(isClicked && !isOpen){ 
         OpenNav();
       }           
@@ -41,4 +43,6 @@ var isClicked = false;
     Snav.style.top = "0px";
     Snav.style.height = "60px"; 
     isOpen = false; 
-    }
+    };
+
+  });
