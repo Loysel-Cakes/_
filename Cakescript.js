@@ -1,4 +1,13 @@
-
+    function MenuBtnPressed(){
+      console.log("haspressed");
+            isClicked = true; 
+      if(isClicked && !isOpen){ 
+        OpenNav();
+      }           
+      if(isClicked && isOpen){
+        CloseNav();
+      }
+    }
 document.addEventListener("DOMContentLoaded",() => {
    var isOpen = false;
     var isCleicked = false;
@@ -10,16 +19,8 @@ document.addEventListener("DOMContentLoaded",() => {
     var cupcakeSection = document.getElementById("CupCakeSection");
     var macaronSection = document.getElementById("MacaronSection");
     var donutSection = document.getElementById("DonutSection");
-    function MenuBtnPressed(){
-      console.log("haspressed");
-            isClicked = true; 
-      if(isClicked && !isOpen){ 
-        OpenNav();
-      }           
-      if(isClicked && isOpen){
-        CloseNav();
-      }
-    }
+
+
     function OpenNav(){
     cakeSection.style.visibility = "visible";
     donutSection.style.visibility = "visible";
