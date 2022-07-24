@@ -24,6 +24,7 @@ var isClicked = false;
     macaronSection.style.visibility = "visible";
     cupcakeSection.style.visibility = "visible";
     contactSection.style.visibility = "hidden";
+    Snav.style.visibility = "visible";
     Snav.style.width = "250px";
     Snav.style.height = "100%";
     Snav.style.top = "70px";
@@ -35,7 +36,7 @@ var isClicked = false;
     macaronSection.style.visibility = "hidden";
     cupcakeSection.style.visibility = "hidden"; 
     contactSection.style.visibility = "visible";
-    
+    Snav.style.visibility = "hidden";
     Snav.style.width = "60px";
     Snav.style.top = "0px";
     Snav.style.height = "60px"; 
