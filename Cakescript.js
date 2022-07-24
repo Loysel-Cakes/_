@@ -9,20 +9,19 @@ var isClicked = false;
     var macaronSection = document.getElementById("MacaronSection");
     var donutSection = document.getElementById("DonutSection");
 
-function MenuBtnPressed(){
+     function MenuBtnPressed(){
       
-    isClicked = true;
-   }
+            isClicked = true;
+        }
     if(isClicked){ 
       if(!isOpen){
         OpenNav();
       }           
-      if(isOpen){
+      else{
         CloseNav();
       }
     }
     function OpenNav(){
-    
     cakeSection.style.visibility = "visible";
      donutSection.style.visibility = "visible";
      macaronSection.style.visibility = "visible";
