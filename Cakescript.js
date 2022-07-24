@@ -1,8 +1,4 @@
 
-document.addEventListener("DOMContentLoaded",() => {
-   var isOpen = false;
-    var isCleicked = false;
-
     var MenuBtn = document.getElementById("Menu");  
     var Snav = document.getElementById("SideNav");
     var contactSection= document.getElementById("ContactSection");
@@ -10,7 +6,6 @@ document.addEventListener("DOMContentLoaded",() => {
     var cupcakeSection = document.getElementById("CupCakeSection");
     var macaronSection = document.getElementById("MacaronSection");
     var donutSection = document.getElementById("DonutSection");
-
 
     function OpenNav(){
     cakeSection.style.visibility = "visible";
@@ -22,7 +17,6 @@ document.addEventListener("DOMContentLoaded",() => {
     Snav.style.width = "250px";
     Snav.style.height = "100%";
     Snav.style.top = "70px";
-    isOpen = true;
     }
    function CloseNav(){ 
     cakeSection.style.visibility = "hidden";
@@ -34,7 +28,4 @@ document.addEventListener("DOMContentLoaded",() => {
     Snav.style.width = "60px";
     Snav.style.top = "0px";
     Snav.style.height = "60px"; 
-    isOpen = false; 
-    };
-
-  });
+    }
