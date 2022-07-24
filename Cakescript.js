@@ -1,7 +1,13 @@
 
 var isOpen = false;
 var isClicked = false;
-
+    var MenuBtn = document.getElementById("Menu");  
+    var Snav = document.getElementById("SideNav");
+    var contactSection= document.getElementById("ContactSection");
+    var cakeSection = document.getElementById("CakeSection");
+    var cupcakeSection = document.getElementById("CupCakeSection");
+    var macaronSection = document.getElementById("MacaronSection");
+    var donutSection = document.getElementById("DonutSection");
     function MenuBtnPressed(){
       console.log("haspressed");
             isClicked = true;
@@ -13,13 +19,6 @@ var isClicked = false;
       }
     }
     function OpenNav(){
-      var MenuBtn = document.getElementById("Menu");  
-      var Snav = document.getElementById("SideNav");
-      var contactSection= document.getElementById("ContactSection");
-      var cakeSection = document.getElementById("CakeSection");
-      var cupcakeSection = document.getElementById("CupCakeSection");
-      var macaronSection = document.getElementById("MacaronSection");
-      var donutSection = document.getElementById("DonutSection");
     cakeSection.style.visibility = "visible";
     donutSection.style.visibility = "visible";
     macaronSection.style.visibility = "visible";
@@ -32,13 +31,6 @@ var isClicked = false;
     isOpen = true;
     }
    function CloseNav(){ 
-    var MenuBtn = document.getElementById("Menu");  
-    var Snav = document.getElementById("SideNav");
-    var contactSection= document.getElementById("ContactSection");
-    var cakeSection = document.getElementById("CakeSection");
-    var cupcakeSection = document.getElementById("CupCakeSection");
-    var macaronSection = document.getElementById("MacaronSection");
-    var donutSection = document.getElementById("DonutSection");
     cakeSection.style.visibility = "hidden";
     donutSection.style.visibility = "hidden";
     macaronSection.style.visibility = "hidden";
