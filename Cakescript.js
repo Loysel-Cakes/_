@@ -8,15 +8,16 @@ var isClicked = false;
     var cupcakeSection = document.getElementById("CupCakeSection");
     var macaronSection = document.getElementById("MacaronSection");
     var donutSection = document.getElementById("DonutSection");
-    if(isClicked && !isOpen){ 
-        OpenNav();
-      }           
-    if(isClicked && isOpen){
-        CloseNav();
-      }
+
      function MenuBtnPressed(){
             isClicked = true;
-        }
+      if(isClicked && !isOpen){ 
+        OpenNav();
+      }           
+      if(isClicked && isOpen){
+        CloseNav();
+      }
+    }
 
     function OpenNav(){
     cakeSection.style.visibility = "visible";
