@@ -1,26 +1,23 @@
 
 var isOpen = false;
 var isClicked = false;
-   var MenuBtn = document.getElementById("Menu");  
+    var MenuBtn = document.getElementById("Menu");  
     var Snav = document.getElementById("SideNav");
     var contactSection= document.getElementById("ContactSection");
     var cakeSection = document.getElementById("CakeSection");
     var cupcakeSection = document.getElementById("CupCakeSection");
     var macaronSection = document.getElementById("MacaronSection");
     var donutSection = document.getElementById("DonutSection");
-
-     function MenuBtnPressed(){
-      
-            isClicked = true;
-        }
-    if(isClicked){ 
-      if(!isOpen){
+    if(isClicked && !isOpen){ 
         OpenNav();
       }           
-      else{
+    if(isClicked && isOpen){
         CloseNav();
       }
-    }
+     function MenuBtnPressed(){
+            isClicked = true;
+        }
+
     function OpenNav(){
     cakeSection.style.visibility = "visible";
      donutSection.style.visibility = "visible";
