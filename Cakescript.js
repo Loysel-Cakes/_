@@ -1,4 +1,4 @@
-    function MenuBtnPressed(){
+     function MenuBtn(){
       console.log("haspressed");
             isClicked = true; 
       if(isClicked && !isOpen){ 
