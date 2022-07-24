@@ -19,7 +19,7 @@ function OpenNav(){
     closeBtn.style.visibility = "visible";                  
     closeBtn.style.top = "0px";
     closeBtn.style.left = "0px";
-    closeBtn.style.fontSize ="20px";
+    closeBtn.style.fontSize ="30px";
     Snav.style.width = "250px";
     Snav.style.height = "100%";
     Snav.style.top = "70px";
