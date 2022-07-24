@@ -23,10 +23,13 @@
     top: 0px;
     left: 0px;
      font-size: 60px;
-     
+     height: 60px;
+     width: 50px;
 }
 
 #closeBtn{
+    height: 60px;
+    width: 50px;
     position: fixed;
     top: 0px;
     font-size: 60px;
